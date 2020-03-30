@@ -13,6 +13,21 @@
 		7A5A81C72431B42F00B2D74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A81C62431B42F00B2D74C /* Assets.xcassets */; };
 		7A5A81CA2431B42F00B2D74C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A81C92431B42F00B2D74C /* Preview Assets.xcassets */; };
 		7A5A81CD2431B42F00B2D74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A81CB2431B42F00B2D74C /* LaunchScreen.storyboard */; };
+		7A5A81D72431B5D400B2D74C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81D62431B5D400B2D74C /* Day.swift */; };
+		7A5A81D92431B5E200B2D74C /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81D82431B5E200B2D74C /* EntryView.swift */; };
+		7A5A81DB2431B5ED00B2D74C /* Mooday.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81DA2431B5ED00B2D74C /* Mooday.xcdatamodel */; };
+		7A5A81DD2431B5F800B2D74C /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81DC2431B5F800B2D74C /* WeekView.swift */; };
+		7A5A81DF2431B60800B2D74C /* isHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81DE2431B60800B2D74C /* isHidden.swift */; };
+		7A5A81E12431B61300B2D74C /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81E02431B61300B2D74C /* JournalEntry.swift */; };
+		7A5A81E32431B62400B2D74C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81E22431B62400B2D74C /* User.swift */; };
+		7A5A81E52431B63400B2D74C /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81E42431B63400B2D74C /* StatsView.swift */; };
+		7A5A81E72431B64600B2D74C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81E62431B64600B2D74C /* ListView.swift */; };
+		7A5A81E92431B65100B2D74C /* MainVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81E82431B65100B2D74C /* MainVIew.swift */; };
+		7A5A81EB2431B65B00B2D74C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81EA2431B65B00B2D74C /* TabView.swift */; };
+		7A5A81ED2431B66900B2D74C /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81EC2431B66900B2D74C /* TopView.swift */; };
+		7A5A81F12431B76D00B2D74C /* MostOften.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81F02431B76D00B2D74C /* MostOften.swift */; };
+		7A5A81F32431B7A500B2D74C /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81F22431B7A500B2D74C /* DayView.swift */; };
+		7A5A81F52431B7C900B2D74C /* ActivityDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A81F42431B7C900B2D74C /* ActivityDisplayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		7A5A81C92431B42F00B2D74C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A5A81CC2431B42F00B2D74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A5A81CE2431B42F00B2D74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A5A81D62431B5D400B2D74C /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		7A5A81D82431B5E200B2D74C /* EntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		7A5A81DA2431B5ED00B2D74C /* Mooday.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mooday.xcdatamodel; sourceTree = "<group>"; };
+		7A5A81DC2431B5F800B2D74C /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		7A5A81DE2431B60800B2D74C /* isHidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = isHidden.swift; sourceTree = "<group>"; };
+		7A5A81E02431B61300B2D74C /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		7A5A81E22431B62400B2D74C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7A5A81E42431B63400B2D74C /* StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		7A5A81E62431B64600B2D74C /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		7A5A81E82431B65100B2D74C /* MainVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVIew.swift; sourceTree = "<group>"; };
+		7A5A81EA2431B65B00B2D74C /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		7A5A81EC2431B66900B2D74C /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		7A5A81F02431B76D00B2D74C /* MostOften.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostOften.swift; sourceTree = "<group>"; };
+		7A5A81F22431B7A500B2D74C /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		7A5A81F42431B7C900B2D74C /* ActivityDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDisplayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,21 @@
 		7A5A81BF2431B42C00B2D74C /* Mooday */ = {
 			isa = PBXGroup;
 			children = (
+				7A5A81F42431B7C900B2D74C /* ActivityDisplayer.swift */,
+				7A5A81F22431B7A500B2D74C /* DayView.swift */,
+				7A5A81F02431B76D00B2D74C /* MostOften.swift */,
+				7A5A81EC2431B66900B2D74C /* TopView.swift */,
+				7A5A81EA2431B65B00B2D74C /* TabView.swift */,
+				7A5A81E82431B65100B2D74C /* MainVIew.swift */,
+				7A5A81E62431B64600B2D74C /* ListView.swift */,
+				7A5A81E42431B63400B2D74C /* StatsView.swift */,
+				7A5A81E22431B62400B2D74C /* User.swift */,
+				7A5A81E02431B61300B2D74C /* JournalEntry.swift */,
+				7A5A81DE2431B60800B2D74C /* isHidden.swift */,
+				7A5A81DC2431B5F800B2D74C /* WeekView.swift */,
+				7A5A81DA2431B5ED00B2D74C /* Mooday.xcdatamodel */,
+				7A5A81D82431B5E200B2D74C /* EntryView.swift */,
+				7A5A81D62431B5D400B2D74C /* Day.swift */,
 				7A5A81C02431B42C00B2D74C /* AppDelegate.swift */,
 				7A5A81C22431B42C00B2D74C /* SceneDelegate.swift */,
 				7A5A81C42431B42C00B2D74C /* ContentView.swift */,
@@ -146,9 +191,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5A81F32431B7A500B2D74C /* DayView.swift in Sources */,
+				7A5A81E12431B61300B2D74C /* JournalEntry.swift in Sources */,
 				7A5A81C12431B42C00B2D74C /* AppDelegate.swift in Sources */,
+				7A5A81EB2431B65B00B2D74C /* TabView.swift in Sources */,
+				7A5A81DF2431B60800B2D74C /* isHidden.swift in Sources */,
+				7A5A81DB2431B5ED00B2D74C /* Mooday.xcdatamodel in Sources */,
+				7A5A81E72431B64600B2D74C /* ListView.swift in Sources */,
+				7A5A81ED2431B66900B2D74C /* TopView.swift in Sources */,
+				7A5A81F52431B7C900B2D74C /* ActivityDisplayer.swift in Sources */,
+				7A5A81DD2431B5F800B2D74C /* WeekView.swift in Sources */,
+				7A5A81E52431B63400B2D74C /* StatsView.swift in Sources */,
+				7A5A81F12431B76D00B2D74C /* MostOften.swift in Sources */,
 				7A5A81C32431B42C00B2D74C /* SceneDelegate.swift in Sources */,
+				7A5A81E32431B62400B2D74C /* User.swift in Sources */,
+				7A5A81D92431B5E200B2D74C /* EntryView.swift in Sources */,
+				7A5A81D72431B5D400B2D74C /* Day.swift in Sources */,
 				7A5A81C52431B42C00B2D74C /* ContentView.swift in Sources */,
+				7A5A81E92431B65100B2D74C /* MainVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Waleed-Ali.Mooday";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Waleed-Ali.Mooday";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

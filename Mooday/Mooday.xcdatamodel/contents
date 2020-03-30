@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Day" representedClassName="Day" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dayDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="month" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="entries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="JournalEntry" inverseName="day" inverseEntity="JournalEntry"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="title"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="JournalEntry" representedClassName="JournalEntry" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="eatBad" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="eatWell" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="exercise" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="family" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="friends" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="gaming" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="goOut" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="mood" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reading" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="relationship" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="relax" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="school" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sleepBad" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sleepWell" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sport" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="tv" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="work" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="day" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="entries" inverseEntity="Day"/>
+    </entity>
+    <elements>
+        <element name="Day" positionX="0" positionY="45" width="128" height="148"/>
+        <element name="JournalEntry" positionX="-36" positionY="9" width="128" height="343"/>
+    </elements>
+</model>
