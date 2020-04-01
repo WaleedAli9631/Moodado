@@ -160,6 +160,7 @@ struct ParentList: View
                                 Rectangle()
                                 .foregroundColor(Color("MyBlue").opacity(0.9))
                                 .overlay(Text("Yes").font(.headline), alignment: .center)
+                                .frame(width: self.geometry.size.width/3, height: 50)
                                 .onTapGesture
                                 {
                                     self.user.indexToDelete = self.index
@@ -175,6 +176,7 @@ struct ParentList: View
                                 Rectangle()
                                 .foregroundColor(Color("MyBrightRed").opacity(0.95))
                                 .overlay(Text("No").font(.headline), alignment: .center)
+                                .frame(width: self.geometry.size.width/3, height: 50)
                                 .onTapGesture
                                 {
                                     self.delete = false
@@ -295,6 +297,7 @@ struct ChildList: View
                                 Rectangle()
                                 .foregroundColor(Color("MyBlue").opacity(0.9))
                                 .overlay(Text("Yes").font(.headline), alignment: .center)
+                                .frame(width: self.geometry.size.width/3, height: 50)
                                 .onTapGesture
                                 {
                                     if(self.entry.day!.entriesArray.count == 1)
@@ -311,6 +314,7 @@ struct ChildList: View
                                 Rectangle()
                                 .foregroundColor(Color("MyBrightRed").opacity(0.95))
                                 .overlay(Text("No").font(.headline), alignment: .center)
+                                 .frame(width: self.geometry.size.width/3, height: 50)
                                 .onTapGesture
                                 {
                                     self.delete = false
